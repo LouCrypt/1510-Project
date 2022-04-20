@@ -1,19 +1,17 @@
-body{
-  background-color: rgb(227, 251, 248);
-  padding: 0px;
-  margin: 0px;
+*{
+  box-sizing: border-box;
 }
 
-div img{
-  width: 500px;
-  height:250px;
-  background-position: center center;
-  background-size: cover;
-  padding-top: 100px;
-  padding-bottom: 100px;
+.row{
+  display: flex;
 }
-div p{
-  padding:15px;
+
+.quote{
+  flex: content;
+}
+
+p{
+  padding: 15px;
   font-size: 16px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -71,5 +69,9 @@ div p{
       float: none;
       display: block;
       text-align: left;
+    }
+
+    .quote{
+      width: 100%;
     }
   }
