@@ -7,7 +7,7 @@
 }
 
 .quote{
-  flex: content;
+  flex:content;
 }
 
 p{
@@ -20,6 +20,12 @@ p{
     overflow: hidden;
   }
   
+  footer{
+    text-align: center;
+    padding:5px;
+    background-color: #008481;
+    color:azure;
+  }
   
   .topnav a {
     float: left;
